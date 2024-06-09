@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = "AIzaSyCarA7va-eH2fed686um5jWq0sjScspPjA"
 
 # Configure Google Generative AI
 genai.configure(api_key=GOOGLE_API_KEY)
